@@ -8,5 +8,18 @@
     "type": "git"
   },
   "author": "gejiawen <806717031@qq.com> (http://blog.gejiawen.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.4",
+    "lodash": "^4.16.5",
+    "moment": "^2.15.2",
+    "node-fetch": "^1.6.3",
+    "on-finished": "^2.3.0",
+    "pug": "^2.0.0-beta6",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.2.0"
+  }
 }
