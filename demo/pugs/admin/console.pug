@@ -1,0 +1,30 @@
+//
+   Created by gejiawen on 01/11/2016.
+
+html
+    body
+        h1 admin console page
+        hr
+        p look this url.
+
+        button summary
+        .summary
+
+        a(href="/") return
+
+    script(src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js")
+    script.
+        (function() {
+            $('button').click(function() {
+                $.ajax({
+                    url: '/admin/console.html?page=1',
+                    method: 'post',
+                    data: {
+                        type: 'vip'
+                    },
+                    success: function(rst) {
+                        $('.summary').html(rst)
+                    }
+                })
+            })
+        })()

@@ -1,0 +1,37 @@
+//
+   Created by gejiawen on 01/11/2016.
+
+html
+    body
+        h1 commit your comment
+        .form
+            .row
+                label name
+                input(type="text", placeholder="your name")
+            .row
+                label message
+                textarea(cols=10, rows=10, placeholder="your message")
+            .row
+                button 提交
+            .feedback(style="display: none")
+
+    script(src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js")
+    script.
+        (function() {
+            $('button').click(function() {
+                $.ajax({
+                    url: "/comment.html",
+                    data: {
+                        name: $('input').val(),
+                        msg: $('textarea').val()
+                    },
+                    method: 'post',
+                    success: function(rst) {
+
+                        $('.feedback').css({
+                            display: 'block'
+                        }).html(rst)
+                    }
+                })
+            })
+        })()
