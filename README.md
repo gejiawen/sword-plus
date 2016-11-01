@@ -10,10 +10,9 @@ $ npm install --save sword-plus
 
 ## Usage
 
-```js
-var swordPlus = require('sword-plus');
-swordPlus();
-```
+see demo folder for more detail.
+
+
 
 ## License
 
