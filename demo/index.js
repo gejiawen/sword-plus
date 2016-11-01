@@ -1,10 +1,5 @@
-
-
 var koa = require('koa')
-var bodyparser = require('koa-bodyparser')
-
 var SwordPlus = require('../index')
-
 
 var config = {
     logger: {
@@ -34,7 +29,7 @@ var sp = new SwordPlus(app, config)
 
 // usage
 // this code can merge some extra methods into Clazz
-// sp.handler.extend()
+// sp.handler.inject({})
 
 app.use(bodyparser())
 sp.logger.config.action && app.use(function *(next) {

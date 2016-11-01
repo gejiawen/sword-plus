@@ -19,7 +19,6 @@
     "uuid": "^2.0.3"
   },
   "devDependencies": {
-    "koa": "^1.2.4",
-    "koa-bodyparser": "^2.2.0"
+    "koa": "^1.2.4"
   }
 }
