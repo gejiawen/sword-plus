@@ -107,7 +107,8 @@ var DEFAULT_CONFIG = {
     reqDetail: true,                // 是否记录request日志类型的详情
     resDetail: true,                // 是否记录response日志类型的详情
     action: true,                   // 是否启用交互日志类型记录    
-    actDetail: true                 // 是否记录action日志类型的详情
+    actDetail: true,                // 是否记录action日志类型的详情
+    localTime: true                 // 是否使用本地时区时间
 }
 ```
 

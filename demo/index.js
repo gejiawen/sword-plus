@@ -31,7 +31,6 @@ var sp = new SwordPlus(app, config)
 // this code can merge some extra methods into Clazz
 // sp.handler.inject({})
 
-app.use(bodyparser())
 sp.logger.config.action && app.use(function *(next) {
     sp.logger.action(this)
     yield next
