@@ -67,7 +67,7 @@ var DEFAULT_CONFIG = {
     suffix: '.pug',         // 默认的模板文件后缀
     suffixList: ['.pug', '.jade'],  // 支持的模板文件后缀
     cache: true,            // 是否应用缓存，这里缓存的对象为compile过的模板内容
-    logger: false           // 是否记录日志
+    logger: true           // 是否记录日志
 }
 ```
 
@@ -137,7 +137,7 @@ var DEFAULT_CONFIG = {
     hostname: '',   // rest服务的hostname
     port: 80,       // rest服务的port
     timeout: 5e3,   // 请求timeout市场限制
-    logger: false   // 是否记录请求日志
+    logger: true    // 是否记录请求日志
 }
 ```
 
