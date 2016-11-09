@@ -2,11 +2,19 @@
 
 > Based on koa, provide convenience for the middle layer development of a series of functional suite.
 
+sword-plus是一系列工具集合，基于koa程序，提供了日志记录、模板渲染、请求访问、路由支持、业务类抽象等功能。
+
+它的定位并不是大而全的开发框架，而是一个提升NodeJS程序开发效率的工具箱，以及常用功能的提炼。其内部的各个功能组件存在一定程度上的偶合。
+
 ## Installation
 
 ```sh
 $ npm install --save sword-plus
 ```
+
+## Usage
+
+See demo folder for more detail.
 
 ## Document
 
@@ -141,11 +149,6 @@ var DEFAULT_CONFIG = {
     logger: true    // 是否记录请求日志
 }
 ```
-
-## Usage
-
-see demo folder for more detail.
-
 
 ## License
 
