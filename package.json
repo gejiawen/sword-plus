@@ -1,6 +1,6 @@
 {
   "name": "sword-plus",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Based on koa, provide convenience for the middle layer development of a series of functional suite.",
   "main": "index.js",
   "repository": {
